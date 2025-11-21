@@ -383,11 +383,12 @@ nav .navlinks li a:hover {
 
 .projects p{
   color: #fff;
-  width: 800px;
+  width: 70%;
   display: flex;
   text-align: center;
   align-items: center;
-  margin: 0px auto;
+  justify-content: center;
+  margin: auto;
 }
 
 .isi-prj{
