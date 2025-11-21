@@ -554,6 +554,10 @@ nav .navlinks li a:hover {
 }
 
 @media (max-width: 930px) {
+  body{
+    overflow-x: hidden;
+  }
+  
   nav .togglebtn {
     display: initial;
   }
@@ -629,3 +633,4 @@ nav .navlinks li a:hover {
     max-width: 700px;
   }
 }
+
