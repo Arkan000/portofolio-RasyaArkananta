@@ -587,6 +587,7 @@ nav .navlinks li a:hover {
 
   nav .navlinks {
     position: absolute;
+    display: none;
     top: 85px;
     right: -100%;
     bottom: 0;
@@ -610,6 +611,7 @@ nav .navlinks li a:hover {
   }
 
   nav .navlinks.open {
+    display:initial;
     right: 0;
   }
 }
@@ -633,4 +635,5 @@ nav .navlinks li a:hover {
     max-width: 700px;
   }
 }
+
 
